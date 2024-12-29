@@ -1,0 +1,45 @@
+@import "../../../../styles/theme";
+
+.root{
+    border: 1px solid $gray;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 400px;
+}
+
+.details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    padding: 5px;
+    background-color: $gray;
+    opacity: 0.7;
+}
+
+.text{
+    padding: 10px;
+}
+
+.mat-card{
+    padding: 0;
+}
+
+.transparent{
+    opacity: 0.5;
+}
+
+.mat-expansion-panel-header{
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+}
+
+.like{
+    padding: 0px !important;
+}
+
+.padding{
+    padding: 10px;
+}

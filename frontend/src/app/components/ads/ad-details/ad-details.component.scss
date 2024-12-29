@@ -1,0 +1,38 @@
+@import "../../../../styles/theme";
+
+.root{
+    display: inline-block;
+    margin: 30px;
+}
+
+.mat-card{
+    width: 500px;
+    min-height: 500px;
+}
+
+.details{
+    text-align: left;
+}
+
+.mat-card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 500px;
+}
+
+.mat-expansion-panel-header{
+    padding-right: 0px !important;
+}
+
+.mat-card{
+    padding: 0;
+}
+
+.main{
+    padding: 16px;
+}
+
+.padding{
+    padding: 10px;
+}

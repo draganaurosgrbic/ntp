@@ -1,0 +1,20 @@
+@import "../../../../../styles/theme";
+
+.root{
+    text-align: center;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: $warn;
+}
+
+.content{
+    padding: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

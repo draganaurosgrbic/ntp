@@ -1,0 +1,15 @@
+@import "../../../../../styles/theme";
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    min-height: 700px;
+}
+
+.mat-spinner{
+    opacity: 0.6;
+}
